@@ -1,0 +1,22 @@
+Quiz.c Workflow
+
+1)Read command line arguements(argNum and argQ)
+
+2)Must be at least 2 arguements so if theres <2, display error and exit
+
+3) Output the helpscreen dialogue if argQ[1] == "--help")
+
+4) If argQ[1] = '-q'
+    if argNum == 2: display all the questions of the quiz
+
+    if argNum - 3: print specific question based on number user inputs
+
+    else: print out a error msg
+
+5) If argQ[1] = '-a'
+    if argNum == 4: 
+    argQ[2] is question number
+    compare argQ[3] to correct answer
+    Check and output message based on whether or not inputted answer is correct
+    else: print error message
+6) else (argQ[1] is something else): print error message
